@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+</head>
+<body>
+    <header>
+	<h1>IntelliMerge Execution Steps</h1>
+    </header>
+    <main>
+	</br>
+        <h2>Introduction</h2>
+	</br>
+	<p>In this page, we will provide an overview of the scripts results obtained from using the IntelliMerge tool, along with important information to understand and reproduce these results.</>
+ 	</br>
+	<h2>Overview</h2>
+	<p>We executed IntelliMerge over our subjects using shell script, then we preprocessed the results using Python scripts.
+
+	<h2>How to Reproduce</h2>
+	<p>If you wish to reproduce the results with the IntelliMerge tool, follow these steps:</p>
+
+	<ol>
+  	<li>Prerequisites: To obtain IntelliMerge Tool simulation results:</li>
+	<ul>
+  	<li>Windows and Java 8 to execute IntelliMerge</li>
+  	<li>A list of merges containing merge parent 1 (p1), merge parent 2 (p2), and the merge commit.</li>
+	</ul>
+
+ 	<li>To analyze the IntelliMerge simulation results: </li>
+	<ul>
+  	<li>Python</li>
+  	<li>Pandas and relationed libraries</li>
+        </ul>
+
+	<li>Clone the IntelliMerge Tool repository: 
+        </br>
+        <code> git https://github.com/Symbolk/IntelliMerge.git </code></li>
+	<li> Run the script to execute IntelliMerge: 
+	</br>
+	<code>.\intellimerge_script.sh </code> </li>
+	<li>Collect results from IntelliMerge execution using the scripts: <code>IntelliMerge_preprocessing.ipynb </code></li>
+	</ol>
+    </main>
+</body>
+</html>
+

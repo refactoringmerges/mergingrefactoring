@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+</head>
+<body>
+    <header>
+        <h1>Analysis of Merge Conflicts on Merge Tools</h1>
+    </header>
+    <main>
+	</br>
+        <h2>Introduction</h2>
+	</br>
+        <p>This page presents our results on merge conflicts considering the tools Git, jFSTMerge, and IntelliMerge. We also present relationships between variables related to the history of projects and merge conflicts across the three tools analyzed.</p>
+	</br>
+        
+        <h2>Subjects and Applied Data</h2>
+	</br>
+	<p>Here you find our <a href="subjects_details.html">subjects</a> and their detailment on <a href="anatomy.html">study anatomy</a> page.</p>
+        <p>Our data are available on <a href="https://zenodo.org/record/SEU_DOI" target="_blank">Zenodo</a>.</p>
+        </br>
+
+	<h2>Conflicting code examples</h2>
+	</br>
+	<p> The following images represent real conflicting code after applying Git, jFSTMerge, and IntelliMerge tools.</p>
+	</br>
+	In Figure 01, the method isSuppressed() is presented in its base, left, and right versions:
+        <figure>
+        <img src="tools_example_01.png" width="700" />
+  	<figcaption>Figure 01 - Versions base, left, and right of the method isSuppressed.</figcaption>
+	</figure>
+	</br>
+	When merged using the three tools, the operation results in conflicts. As the changes occur inside the mnethod body, jFSTMerge and IntelliMerge could not interpret the method's parameter difference.
+        <figure>
+        <img src="tools_example_02.png" width="700" />
+  	<figcaption>Figure 02 - Merge conflicts in Git, jFSTMerge, and IntelliMerge</figcaption>
+	</figure>
+
+	Changes in import declarations only raises conflicts in Git executions as showed in Figure 03:
+        <figure>
+        <img src="import_conflict_git.png" width="600" />
+  	<figcaption>Figure 03 - Conflict in imports declaration</figcaption>
+	</figure>
+
+
+        <h2>Instructions for Reproducing the Study Raw Data</h2>
+	</br>
+	<ul>
+        <li><p><a href="git_simulation.html"> Collecting data using the Refactoring Analysis Tools<a> </p></li>
+        <li><p><a href="jfstmerge_simulation.html"> Collecting data using jFSTMerge Tools<a> </p></li>
+        <li><p><a href="intellimerge_simulation.html"> Collecting data using IntelliMerge Tools<a> </p></li>
+	</ul>
+
+	<h2>Results</h2>
+	</br>
+        <p>Here you find the results of our research:</p>
+	<p><a href="git_simulation.html"> Instructions to collect data using Git and Refactoring Analysis Tools<a> </p>
+        </br>
+
+        <footer>
+            <p>&copy; 2024 RefactoringResearch</p>
+        </footer>
+    </main>
+</body>
+</html>
