@@ -4,7 +4,7 @@ This is the repository of results related to the analysis of refactorings in com
 In the links below you will find:
 
 * [Subjects in our study](/subjects.md)
-* [Git simulation instructions](git_simulation/git_simulation.md)
+* [Git execution steps](/git_execution/git_execution_steps.md))
 * [IntelliMerge simulation instructions](intellimerge_simulation/intellimerge_simulation.md)
 * jFSTMerge simulation instructions
 * [Scripts and Analyses](/statistics_analysis/statistics_analysis.md) 
