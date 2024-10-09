@@ -1,4 +1,4 @@
-# Git Simulation 
+# Git Execution Steps 
 
 In this README, we will provide an overview of the scripts results obtained from using the Git tool, along with important information to understand and reproduce these results.
 
