@@ -24,10 +24,12 @@ If you wish to reproduce the results with the IntelliMerge tool, follow these st
      ```bash
      git https://github.com/Symbolk/IntelliMerge.git
 
-3. **Run the script to execute IntelliMerge:**
-      [.\intellimerge_script.sh](/intellimerge_execution/intellimerge_script.sh)
+3. **Run the script to execute IntelliMerge simulation:**
+      [intellimerge_script.sh](/intellimerge_execution/intellimerge_script.sh)
+   ```bash
+   .\intellimerge_script.sh
     
-4. **Collect results from IntelliMerge execution using the scripts:**
-      IntelliMerge_preprocessing.ipynb
+5. **Collect results from IntelliMerge execution using the scripts:**
+      [IntelliMerge_preprocessing.ipynb](/intellimerge_execution/IntelliMerge_preprocessing.ipynb)
 
 
