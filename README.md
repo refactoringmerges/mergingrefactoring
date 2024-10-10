@@ -1,5 +1,6 @@
-# Refactorings in merge conflicts
-This is the repository of results related to the analysis of refactorings in commits.
+# The Hidden Challenges of Merging: A Tool-Based Exploration
+
+This repository contains results from the analysis of merge conflicts detected by three merge tools, focusing on the influence of code transformations, such as refactorings, when applying different merge approaches.
 
 In the links below you will find:
 
