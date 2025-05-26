@@ -6,6 +6,7 @@ This repository contains the results of an analysis of merge conflicts detected 
 * [Git execution steps](/git_execution/git_execution_steps.md)
 * [IntelliMerge execution steps](/intellimerge_execution/intellimerge_execution_steps.md)
 * [jFSTMerge execution steps](/jfstmerge_execution/jfstmerge_execution_steps.md)
+* [Linear regression plots for each tool](Linear Regression Plots for Each Tool.ipynb)
 * [Scripts](https://doi.org/10.5281/zenodo.13912933)
 
 Cite the code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13912933.svg)](https://doi.org/10.5281/zenodo.13912933)
